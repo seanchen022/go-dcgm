@@ -26,6 +26,8 @@ type FieldMeta struct {
 	Scope       int
 	NvmlFieldId int
 	EntityLevel Field_Entity_Group
+	Width       Short
+	ShortName   string
 }
 
 type FieldHandle struct{ handle C.dcgmFieldGrp_t }
@@ -254,6 +256,8 @@ func ToFieldMeta(fieldInfo C.dcgm_field_meta_p) FieldMeta {
 		Scope:       int(fieldInfo.scope),
 		NvmlFieldId: int(fieldInfo.nvmlFieldId),
 		EntityLevel: Field_Entity_Group(fieldInfo.entityLevel),
+		Width:       Short(fieldInfo.valueFormat.width),
+		ShortName:   *stringPtr((*C.char)(unsafe.Pointer(&fieldInfo.valueFormat.shortName[0]))),
 	}
 }
 

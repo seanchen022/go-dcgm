@@ -8,5 +8,5 @@ You will also find samples for these bindings in this repository.
 
 [Checkout the Contributing document!](CONTRIBUTING.md)
 
-* Please let us know by [filing a new issue](https://github.com/NVIDIA/go-dcgm/issues/new)
-* You can contribute by opening a [pull request](https://github.com/NVIDIA/go-dcgm)
+* Please let us know by [filing a new issue](https://github.com/seanchen022/go-dcgm/issues/new)
+* You can contribute by opening a [pull request](https://github.com/seanchen022/go-dcgm)
