@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/NVIDIA/go-dcgm/pkg/dcgm"
+	"github.com/seanchen022/go-dcgm/pkg/dcgm"
 )
 
 const diagOutput = `Software:

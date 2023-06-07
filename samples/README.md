@@ -1,6 +1,6 @@
 # DCGM Samples
 
-Modelled on [dcgmi (Data Center GPU Manager Interface)](https://developer.nvidia.com/data-center-gpu-manager-dcgm) and [nvidia-smi (NVIDIA System Management Interface)](https://developer.nvidia.com/nvidia-system-management-interface), seven samples and a [REST API](https://github.com/NVIDIA/go-dcgm/samples/dcgm/restApi/README.md) have been provided to show how to use DCGM go bindings.
+Modelled on [dcgmi (Data Center GPU Manager Interface)](https://developer.nvidia.com/data-center-gpu-manager-dcgm) and [nvidia-smi (NVIDIA System Management Interface)](https://developer.nvidia.com/nvidia-system-management-interface), seven samples and a [REST API](https://github.com/seanchen022/go-dcgm/samples/dcgm/restApi/README.md) have been provided to show how to use DCGM go bindings.
 
 ## DCGM running modes
 

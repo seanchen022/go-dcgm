@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/NVIDIA/go-dcgm/pkg/dcgm"
+	"github.com/seanchen022/go-dcgm/pkg/dcgm"
 	"log"
 	"os"
 	"os/signal"
